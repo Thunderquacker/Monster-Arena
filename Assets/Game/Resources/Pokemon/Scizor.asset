@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5983b799032cb474e818bd4f085d7216, type: 3}
+  m_Name: Scizor
+  m_EditorClassIdentifier: 
+  pokemonName: Scizor
+  description: 
+  frontSprite: {fileID: -7508150715086442668, guid: e952411c2453c454dbaa16c7baedaf5d, type: 3}
+  backSprite: {fileID: 1700698094217359140, guid: 1b450218f9946b944a821e1454f34dbc, type: 3}
+  type1: 0
+  type2: 3
+  maxHP: 70
+  attack: 130
+  defense: 100
+  spAttack: 55
+  spDefense: 80
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3ab529e61ac818f42a0fb26b647545a5, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 185fb4a44a3cecf4d9f42fd68bc383af, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 5e2f205c93172a64c813f48b931f8431, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 503070f36aaf50d42a71f6c542bafe91, type: 2}
+    level: 50
